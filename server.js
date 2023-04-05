@@ -130,7 +130,7 @@ app.post('/api/NFTmint/', async (req, res) => {
 
 
 
-app.post('/api/FT/', async (req, res) => {
+app.get('/api/FT/', async (req, res) => {
 
         const hobby = {
             Fashion: req.body.Fashion,
@@ -186,7 +186,7 @@ app.post('/api/FT/', async (req, res) => {
 
 
 
-app.post('/api/NFT/', async (req, res) => {
+app.get('/api/NFT/', async (req, res) => {
 
         const hobby = {
             Fashion: req.body.Fashion,
